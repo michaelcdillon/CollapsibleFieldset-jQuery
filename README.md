@@ -55,3 +55,33 @@ Usage
   result:
        The fieldset is uncollapsed because its collapsed declaration takes
        priority over the global option
+API
+---
+
+###Constructor
+
+   $('.collapsible').collapsibleFieldset ({collapsed: true, speed 100});
+   
+The constructor can take an object literal that can define these options:
+   - collapsed : Sets all fieldsets to the collapsed state. This will not
+                 override an individual fieldset's collapsedinitially attribute.
+   - speed: This is the duration of the collapsing or uncollapsing, in milliseconds.
+
+###Toggle
+   
+   $('#target').collapsibleFieldset ('toggle');
+   
+This will collapse or uncollapse a targeted fieldset.
+
+###Collapse
+
+   $('#target').collapsibleFieldset ('collapse');
+   
+This will collapse a targeted fieldset.
+
+###Uncollapse
+
+   $('#target').collapsibleFieldset ('uncollapse');
+   
+This will uncollapse a targetd fieldset.
+   
