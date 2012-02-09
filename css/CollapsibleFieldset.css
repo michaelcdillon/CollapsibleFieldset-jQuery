@@ -4,6 +4,7 @@
     color: grey;
     padding-bottom: 3px;
     padding-top: 3px;
+    cursor: pointer;
 }
 
 .collapsible-fieldset-collapsed 
