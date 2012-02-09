@@ -1,0 +1,26 @@
+.collapsible-fieldset 
+{
+    text-decoration : none;
+    color: grey;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.collapsible-fieldset-collapsed 
+{
+    height: 0px;
+}
+
+.collapsible-fieldset-uncollapsed 
+{
+   
+   border-style : solid;
+   border-width : 1px;
+   border-color : grey;
+   border-top-style : none; 
+   border-right-style : none;
+   padding : 7px;
+   padding-bottom : 0px;
+   margin-left: 8px;
+   margin-bottom: 13px;
+}
