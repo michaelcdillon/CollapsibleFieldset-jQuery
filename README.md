@@ -1,16 +1,17 @@
 CollapsibleFieldset Plugin for jQuery.
+======================================
 
----
+
 Installation
 ---
 
 Add the plugin javascript file and the plugin css file to your page.
 
----
+
 Usage
 ---
    
-Standard usage:
+###Standard usage:
 
   html:
 
@@ -24,7 +25,7 @@ Standard usage:
   result:
        Standard collapsible fieldset which is default uncollapsed.
   
-Passing options:
+###Passing options:
 
   html:
 
@@ -38,7 +39,7 @@ Passing options:
   result:
        All targeted divs are collapsed.
   
-Per Anchor Collapsed / Uncollapsed:
+###Per Anchor Collapsed / Uncollapsed:
 
   html:
 
