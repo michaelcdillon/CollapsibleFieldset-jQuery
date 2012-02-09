@@ -10,42 +10,45 @@ Add the plugin javascript file and the plugin css file to your page.
 Usage
 ---
    
-Dtandard usage:
-    html:
+Standard usage:
+
+  html:
 
     <div target="#div1" class="collapsible">Field Set 1</div>
     <div id="div1"> blah blah blah</div>
 
-    script:
+  script:
     
     $('.collapsible').collapsibleFieldset (); 
 
-    result:
+  result:
        Standard collapsible fieldset which is default uncollapsed.
   
 Passing options:
-    html:
+
+  html:
 
     <div target="#div1" class="collapsible">Field Set 1</div>
     <div id="div1"> blah blah blah</div>
 
-    script:
+  script:
 
     $('.collapsible').collapsibleFieldset ({collapsed: true, speed: 100}); 
 
-    result:
+  result:
        All targeted divs are collapsed.
   
 Per Anchor Collapsed / Uncollapsed:
-    html:
+
+  html:
 
     <div target="#div1" class="collapsible" collapsedintially="false">Field Set 1</div>
     <div id="div1"> blah blah blah</div>
 
-    script:
+  script:
 
     $('.collapsible').collapsibleFieldset ({collapsed: true, speed: 100}); 
 
-    result:
+  result:
        The fieldset is uncollapsed because its collapsed declaration takes
        priority over the global option
