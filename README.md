@@ -1,10 +1,12 @@
 CollapsibleFieldset Plugin for jQuery.
 ======================================
 
+Example Page
+---
+[This page demonstrates the usage of the plugin](http://michaelcdillon.github.com/CollapsibleFieldset-jQuery)
 
 Installation
 ---
-
 Add the plugin javascript file and the plugin css file to your page.
 
 
